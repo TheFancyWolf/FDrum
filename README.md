@@ -17,7 +17,7 @@ The goals of this project...
 ## Using FDRUM
 There are 15 sample categories on 15 individual tracks. Each track's color corresponds with the color on the Decent Sampler keyboard. 
 
-Trigger samples using your keyboard or midi editor using the following commands:
+Trigger samples using your keyboard, midi editor, or [from acoustic drums](https://www.youtube.com/watch?v=PTNy4SYRNbo&pp=ygUkdHJpZ2dlciBtaWRpIGZyb20gZHJ1bXMgcmVhcGVyIG1hbmlh) using the following commands:
 
 * C2 = 48 = Kick
 * D2 = 50 = Snare
