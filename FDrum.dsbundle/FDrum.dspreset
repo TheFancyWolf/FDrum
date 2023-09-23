@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DecentSampler>
+  <groups volume="1.0">
+    <group name="linnKick" enabled="false" tags="kick,linnKick" groupTuning="-4.003749847412109" groupPan="0.0" modVolume="0.800000011920929">
+      <sample rootNote="48" loNote="48" hiNote="48" loVel="0" hiVel="60" path="Samples/Linn/KickSoft.wav"/>
+      <sample rootNote="48" loNote="48" hiNote="48" loVel="61" hiVel="127" path="Samples/Linn/KickHard.wav"/>
+      <effects/>
+    </group>
+    <group name="808Kick" enabled="true" tags="kick,808Kick" groupTuning="-4.003749847412109" groupPan="0.0" modVolume="0.800000011920929">
+      <sample rootNote="48" loNote="48" hiNote="48" loVel="0" hiVel="40" path="Samples/808/KickSoft.wav"/>
+      <sample rootNote="48" loNote="48" hiNote="48" loVel="41" hiVel="80" path="Samples/808/KickMed.wav"/>
+      <sample rootNote="48" loNote="48" hiNote="48" loVel="81" hiVel="127" path="Samples/808/KickHard.wav"/>
+      <effects/>
+    </group>
+    <group name="linnSnare" enabled="false" tags="snare,linnSnare" groupTuning="24.0" groupPan="0.0" modVolume="0.800000011920929">
+      <sample rootNote="50" loNote="50" hiNote="50" loVel="0" hiVel="40" path="Samples/Linn/SnareSoft.wav"/>
+      <sample rootNote="50" loNote="50" hiNote="50" loVel="41" hiVel="80" path="Samples/Linn/SnareMed.wav"/>
+      <sample rootNote="50" loNote="50" hiNote="50" loVel="81" hiVel="127" path="Samples/Linn/SnareHard.wav"/>
+      <effects/>
+    </group>
+    <group name="808Snare" enabled="true" tags="snare,808Snare" groupTuning="24.0" groupPan="0.0" modVolume="0.800000011920929">
+      <sample rootNote="50" loNote="50" hiNote="50" loVel="0" hiVel="40" path="Samples/808/SnareSoft.wav"/>
+      <sample rootNote="50" loNote="50" hiNote="50" loVel="41" hiVel="80" path="Samples/808/SnareMed.wav"/>
+      <sample rootNote="50" loNote="50" hiNote="50" loVel="81" hiVel="127" path="Samples/808/SnareHard.wav"/>
+      <effects/>
+    </group>
+    <group name="linnStick" enabled="false" tags="stick,linnStick" groupTuning="24.0" groupPan="0.0" modVolume="0.800000011920929">
+      <sample rootNote="52" loNote="51" hiNote="52" loVel="0" hiVel="127" path="Samples/Linn/Stick.wav"/>
+      <effects/>
+    </group>
+    <group name="808Stick" enabled="true" tags="stick,808Stick" groupTuning="24.0" groupPan="0.0" modVolume="0.800000011920929">
+      <sample rootNote="52" loNote="51" hiNote="52" loVel="0" hiVel="127" path="Samples/808/Stick.wav"/>
+      <effects/>
+    </group>
+    <group name="linnHH" enabled="true" tags="hh,linnHH" silencedByTags="hh" silencingMode="fast" groupTuning="24.0" groupPan="-34.14062118530273" modVolume="0.4775140285491943">
+      <sample rootNote="53" loNote="53" hiNote="54" loVel="0" hiVel="60" path="Samples/Linn/HatsClose.wav"/>
+      <sample rootNote="53" loNote="53" hiNote="54" loVel="61" hiVel="127" path="Samples/Linn/HatsMed.wav"/>
+      <sample rootNote="55" loNote="55" hiNote="56" loVel="0" hiVel="127" path="Samples/Linn/HatsOpen.wav"/>
+      <effects/>
+    </group>
+    <group name="808HH" enabled="false" tags="hh,808HH" silencedByTags="hh" silencingMode="fast" groupTuning="24.0" groupPan="-34.14062118530273" modVolume="0.4775140285491943">
+      <sample rootNote="53" loNote="53" hiNote="54" loVel="0" hiVel="60" path="Samples/808/HatsClose.wav"/>
+      <sample rootNote="53" loNote="53" hiNote="54" loVel="61" hiVel="127" path="Samples/808/HatsMed.wav"/>
+      <sample rootNote="55" loNote="55" hiNote="56" loVel="0" hiVel="127" path="Samples/808/HatsOpen.wav"/>
+      <effects/>
+    </group>
+    <group name="linnRide" enabled="true" tags="ride,linnRide" groupTuning="0.0" groupPan="45.30208206176758" modVolume="0.1142578125">
+      <sample rootNote="57" loNote="57" hiNote="58" loVel="0" hiVel="60" path="Samples/Linn/RideSoft.wav"/>
+      <sample rootNote="57" loNote="57" hiNote="58" loVel="61" hiVel="127" path="Samples/Linn/RideHard.wav"/>
+      <effects/>
+    </group>
+    <group name="linnCrash" enabled="false" tags="crash,linnCrash" groupTuning="0.0" groupPan="56.76562881469727" modVolume="0.2850060164928436">
+      <sample rootNote="59" loNote="59" hiNote="59" loVel="0" hiVel="127" start="20000" path="Samples/Linn/Crash.wav"/>
+      <effects/>
+    </group>
+    <group name="808Crash" enabled="true" tags="crash,808Crash" groupTuning="0.0" groupPan="56.76562881469727" modVolume="0.2850060164928436">
+      <sample rootNote="59" loNote="59" hiNote="59" loVel="0" hiVel="127" path="Samples/808/Crash.wav"/>
+      <effects/>
+    </group>
+    <group name="linnTom1" enabled="false" tags="tom1,linnTom1" groupTuning="0.0" groupPan="-58.71353912353516" modVolume="0.5414413213729858">
+      <sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="127" path="Samples/Linn/Tom1.wav"/>
+      <effects/>
+    </group>
+    <group name="808Tom1" enabled="true" tags="tom1,808Tom1" groupTuning="0.0" groupPan="-58.71353912353516" modVolume="0.5414413213729858">
+      <sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="40" path="Samples/808/Tom1Soft.wav"/>
+      <sample rootNote="60" loNote="60" hiNote="61" loVel="41" hiVel="80" path="Samples/808/Tom1Med.wav"/>
+      <sample rootNote="60" loNote="60" hiNote="61" loVel="81" hiVel="127" path="Samples/808/Tom1Hard.wav"/>
+      <effects/>
+    </group>
+    <group name="linnTom2" enabled="false" tags="tom2,linnTom2" groupTuning="0.0" groupPan="12.4687557220459" modVolume="0.5245893597602844">
+      <sample rootNote="62" loNote="62" hiNote="63" loVel="0" hiVel="127" path="Samples/Linn/Tom2.wav"/>
+      <effects/>
+    </group>
+    <group name="808Tom2" enabled="true" tags="tom2,808Tom2" groupTuning="0.0" groupPan="12.4687557220459" modVolume="0.5245893597602844">
+      <sample rootNote="62" loNote="62" hiNote="63" loVel="0" hiVel="40" path="Samples/808/Tom2Soft.wav"/>
+      <sample rootNote="62" loNote="62" hiNote="63" loVel="41" hiVel="80" path="Samples/808/Tom2Med.wav"/>
+      <sample rootNote="62" loNote="62" hiNote="63" loVel="81" hiVel="127" path="Samples/808/Tom2Hard.wav"/>
+      <effects/>
+    </group>
+    <group name="linnTom3" enabled="false" tags="tom3,linnTom3" groupTuning="1.182497978210449" groupPan="57.94269943237305" modVolume="0.5282952785491943">
+      <sample rootNote="64" loNote="64" hiNote="64" loVel="0" hiVel="127" path="Samples/Linn/Tom3.wav"/>
+      <effects/>
+    </group>
+    <group name="808Tom3" enabled="true" tags="tom3,808Tom3" groupTuning="1.182497978210449" groupPan="57.94269943237305" modVolume="0.5282952785491943">
+      <sample rootNote="64" loNote="64" hiNote="64" loVel="0" hiVel="40" path="Samples/808/Tom3Soft.wav"/>
+      <sample rootNote="64" loNote="64" hiNote="64" loVel="41" hiVel="80" path="Samples/808/Tom3Med.wav"/>
+      <sample rootNote="64" loNote="64" hiNote="64" loVel="81" hiVel="127" path="Samples/808/Tom3Hard.wav"/>
+      <effects/>
+    </group>
+    <group name="linnShaker" enabled="true" tags="shaker,linnShaker" groupTuning="-11.77000045776367" groupPan="0.0" modVolume="0.443534642457962">
+      <sample rootNote="65" loNote="65" hiNote="66" loVel="0" hiVel="60" path="Samples/Linn/ShakerSoft.wav"/>
+      <sample rootNote="65" loNote="65" hiNote="66" loVel="61" hiVel="127" path="Samples/Linn/ShakerHard.wav"/>
+      <effects/>
+    </group>
+    <group name="808Shaker" enabled="false" tags="shaker,808Shaker" groupTuning="-11.77000045776367" groupPan="0.0" modVolume="0.443534642457962">
+      <sample rootNote="65" loNote="65" hiNote="66" loVel="0" hiVel="60" path="Samples/808/ShakerSoft.wav"/>
+      <sample rootNote="65" loNote="65" hiNote="66" loVel="61" hiVel="127" path="Samples/808/ShakerHard.wav"/>
+      <effects/>
+    </group>
+    <group name="linnTambo" enabled="false" tags="tambo,linnTambo" groupTuning="0.0" groupPan="0.0" modVolume="0.8">
+      <sample rootNote="67" loNote="67" hiNote="68" loVel="0" hiVel="60" path="Samples/Linn/TamboSoft.wav"/>
+      <sample rootNote="67" loNote="67" hiNote="68" loVel="61" hiVel="127" path="Samples/Linn/TamboHard.wav"/>
+      <effects/>
+    </group>
+    <group name="808Tambo" enabled="true" tags="tambo,808Tambo" groupTuning="0.0" groupPan="0.0" modVolume="0.8">
+      <sample rootNote="67" loNote="67" hiNote="68" loVel="0" hiVel="127" path="Samples/808/Tambo.wav"/>
+      <effects/>
+    </group>
+    <group name="linnCowbell" enabled="false" tags="cowbell,linnCowbell" groupTuning="-21.12625" groupPan="0.0" modVolume="0.2794220753205128">
+      <sample rootNote="69" loNote="69" hiNote="70" loVel="0" hiVel="127" path="Samples/Linn/Cowbell.wav"/>
+      <effects/>
+    </group>
+    <group name="808Cowbell" enabled="true" tags="cowbell,808Cowbell" groupTuning="-21.12625" groupPan="0.0" modVolume="0.2794220753205128">
+      <sample rootNote="69" loNote="69" hiNote="70" loVel="0" hiVel="127" path="Samples/808/Cowbell.wav"/>
+      <effects/>
+    </group>
+    <group name="linnClap" enabled="true" tags="clap,linnClap" groupTuning="-24.0" groupPan="0.0" modVolume="0.5431690705128205">
+      <sample rootNote="71" loNote="71" hiNote="71" loVel="0" hiVel="127" path="Samples/Linn/Clap.wav"/>
+      <effects/>
+    </group>
+    <group name="808Clap" enabled="false" tags="clap,808Clap" groupTuning="-24.0" groupPan="0.0" modVolume="0.5431690705128205">
+      <sample rootNote="71" loNote="71" hiNote="71" loVel="0" hiVel="60" path="Samples/808/ClapSoft.wav"/>
+      <sample rootNote="71" loNote="71" hiNote="71" loVel="61" hiVel="127" path="Samples/808/ClapHard.wav"/>
+      <effects/>
+    </group>
+    <group name="linnAux1" enabled="true" tags="aux1,linnAux1" groupTuning="0.0" groupPan="0.0" modVolume="0.8">
+      <sample rootNote="72" loNote="72" hiNote="73" loVel="0" hiVel="127" path="Samples/Linn/AuxHi.wav"/>
+      <effects/>
+    </group>
+    <group name="808Aux1" enabled="false" tags="aux1,808Aux1" groupTuning="0.0" groupPan="0.0" modVolume="0.8">
+      <sample rootNote="72" loNote="72" hiNote="73" loVel="0" hiVel="127" path="Samples/808/AuxHi.wav"/>
+      <effects/>
+    </group>
+    <group name="linnAux2" enabled="true" tags="aux2,linnAux2" groupTuning="0.0" groupPan="0.0" modVolume="0.8">
+      <sample rootNote="74" loNote="74" hiNote="75" loVel="0" hiVel="127" path="Samples/Linn/AuxLo.wav"/>
+      <effects/>
+    </group>
+    <group name="808Aux2" enabled="false" tags="aux2,808Aux2" groupTuning="0.0" groupPan="0.0" modVolume="0.8">
+      <sample rootNote="74" loNote="74" hiNote="75" loVel="0" hiVel="127" path="Samples/808/AuxLo.wav"/>
+      <effects/>
+    </group>
+  </groups>
+  <ui width="1300" height="552" bgImage="Images/bg.png">
+    <tab name="main">
+      <label x="4" y="10" width="70" height="70" text="&#8597;" textColor="80FFFFFF" textSize="24"/>
+      <control x="4" y="10" width="70" height="70" type="float" minValue="-24" maxValue="24" value="-4.003749847412109" parameterName="Tune" mouseDragSensitivity="150" trackForegroundColor="E629bcd6" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="kick" parameter="GROUP_TUNING"/>
+      </control>
+      <label x="4" y="80" width="70" height="70" text="&#8596;" textColor="80FFFFFF" textSize="24"/>
+      <control x="4" y="80" width="70" height="70" type="float" minValue="-100" maxValue="100" value="0" parameterName="Pan" mouseDragSensitivity="150" trackForegroundColor="E629bcd6" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="kick" parameter="PAN"/>
+      </control>
+      <label x="4" y="312" width="70" height="30" text="KICK" textColor="FF283237" textSize="20"/>
+      <control x="14" y="135" width="50" height="180" type="float" minValue="0" maxValue="1" value="0.800000011920929" parameterName="Vol" mouseDragSensitivity="100" trackForegroundColor="E629bcd6" trackBackgroundColor="80FFFFFF" style="linear_vertical">
+        <binding type="amp" level="group" tags="kick" parameter="AMP_VOLUME"/>
+      </control>
+      <menu x="4" y="344" parameterName="Kick" width="70" height="30" requireSelection="true" placeholderText="Choose..." value="2">
+        <option name="Linn">
+          <binding type="general" level="group" tags="kick" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="linnKick" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+        <option name="808">
+          <binding type="general" level="group" tags="kick" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="808Kick" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+      </menu>
+      <label x="84" y="10" width="70" height="70" text="&#8597;" textColor="80FFFFFF" textSize="24"/>
+      <control x="84" y="10" width="70" height="70" type="float" minValue="-24" maxValue="24" value="24.0" parameterName="Tune" mouseDragSensitivity="150" trackForegroundColor="E62edab8" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="snare" parameter="GROUP_TUNING"/>
+      </control>
+      <label x="84" y="80" width="70" height="70" text="&#8596;" textColor="80FFFFFF" textSize="24"/>
+      <control x="84" y="80" width="70" height="70" type="float" minValue="-100" maxValue="100" value="0" parameterName="Pan" mouseDragSensitivity="150" trackForegroundColor="E62edab8" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="snare" parameter="PAN"/>
+      </control>
+      <label x="84" y="312" width="70" height="30" text="SNARE" textColor="FF283237" textSize="20"/>
+      <control x="94" y="135" width="50" height="180" type="float" minValue="0" maxValue="1" value="0.800000011920929" parameterName="Vol" mouseDragSensitivity="100" style="linear_vertical" trackForegroundColor="E62edab8" trackBackgroundColor="80FFFFFF">
+        <binding type="amp" level="group" tags="snare" parameter="AMP_VOLUME"/>
+      </control>
+      <menu x="83" y="344" parameterName="snare" width="70" height="30" requireSelection="true" placeholderText="Choose..." value="2">
+        <option name="Linn">
+          <binding type="general" level="group" tags="snare" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="linnSnare" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+        <option name="808">
+          <binding type="general" level="group" tags="snare" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="808Snare" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+      </menu>
+      <label x="164" y="10" width="70" height="70" text="&#8597;" textColor="80FFFFFF" textSize="24"/>
+      <control x="164" y="10" width="70" height="70" type="float" minValue="-24" maxValue="24" value="24.0" parameterName="Tune" mouseDragSensitivity="150" trackForegroundColor="E62edab8" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="stick" parameter="GROUP_TUNING"/>
+      </control>
+      <label x="164" y="80" width="70" height="70" text="&#8596;" textColor="80FFFFFF" textSize="24"/>
+      <control x="164" y="80" width="70" height="70" type="float" minValue="-100" maxValue="100" value="0" parameterName="Pan" mouseDragSensitivity="150" trackForegroundColor="E62edab8" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="stick" parameter="PAN"/>
+      </control>
+      <label x="164" y="312" width="70" height="30" text="STICK" textColor="FF283237" textSize="20"/>
+      <control x="174" y="135" width="50" height="180" type="float" minValue="0" maxValue="1" value="0.800000011920929" parameterName="Vol" mouseDragSensitivity="100" style="linear_vertical" trackForegroundColor="E62edab8" trackBackgroundColor="80FFFFFF">
+        <binding type="amp" level="group" tags="stick" parameter="AMP_VOLUME"/>
+      </control>
+      <menu x="163" y="344" parameterName="Stick" width="70" height="30" requireSelection="true" placeholderText="Choose..." value="2">
+        <option name="Linn">
+          <binding type="general" level="group" tags="stick" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="linnStick" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+        <option name="808">
+          <binding type="general" level="group" tags="stick" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="808Stick" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+      </menu>
+      <label x="242" y="10" width="70" height="70" text="&#8597;" textColor="80FFFFFF" textSize="24"/>
+      <control x="242" y="10" width="70" height="70" type="float" minValue="-24" maxValue="24" value="24.0" parameterName="Tune" mouseDragSensitivity="150" trackForegroundColor="E6fff476" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="hh" parameter="GROUP_TUNING"/>
+      </control>
+      <label x="242" y="80" width="70" height="70" text="&#8596;" textColor="80FFFFFF" textSize="24"/>
+      <control x="242" y="80" width="70" height="70" type="float" minValue="-100" maxValue="100" value="-34.14062118530273" parameterName="Pan" mouseDragSensitivity="150" trackForegroundColor="E6fff476" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="hh" parameter="PAN"/>
+      </control>
+      <label x="242" y="312" width="70" height="30" text="HATS" textColor="FF283237" textSize="20"/>
+      <control x="252" y="135" width="50" height="180" type="float" minValue="0" maxValue="1" value="0.4775140285491943" parameterName="Vol" mouseDragSensitivity="100" style="linear_vertical" trackForegroundColor="E6fff476" trackBackgroundColor="80FFFFFF">
+        <binding type="amp" level="group" tags="hh" parameter="AMP_VOLUME"/>
+      </control>
+      <menu x="241" y="344" parameterName="HiHats" width="70" height="30" requireSelection="true" placeholderText="Choose..." value="1">
+        <option name="Linn">
+          <binding type="general" level="group" tags="hh" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="linnHH" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+        <option name="808">
+          <binding type="general" level="group" tags="hh" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="808HH" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+      </menu>
+      <label x="320" y="10" width="70" height="70" text="&#8597;" textColor="80FFFFFF" textSize="24"/>
+      <control x="320" y="10" width="70" height="70" type="float" minValue="-24" maxValue="24" value="0" parameterName="Tune" mouseDragSensitivity="150" trackForegroundColor="E6fff476" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="ride" parameter="GROUP_TUNING"/>
+      </control>
+      <label x="320" y="80" width="70" height="70" text="&#8596;" textColor="80FFFFFF" textSize="24"/>
+      <control x="320" y="80" width="70" height="70" type="float" minValue="-100" maxValue="100" value="45.30208206176758" parameterName="Pan" mouseDragSensitivity="150" trackForegroundColor="E6fff476" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="ride" parameter="PAN"/>
+      </control>
+      <label x="320" y="312" width="70" height="30" text="RIDE" textColor="FF283237" textSize="20"/>
+      <control x="330" y="135" width="50" height="180" type="float" minValue="0" maxValue="1" value="0.1142578125" parameterName="Vol" mouseDragSensitivity="100" style="linear_vertical" trackForegroundColor="E6fff476" trackBackgroundColor="80FFFFFF">
+        <binding type="amp" level="group" tags="ride" parameter="AMP_VOLUME"/>
+      </control>
+      <menu x="320" y="344" parameterName="ride" width="70" height="30" requireSelection="true" placeholderText="Choose..." value="1">
+        <option name="Linn">
+          <binding type="general" level="group" tags="ride" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="linnRide" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+      </menu>
+      <label x="398" y="10" width="70" height="70" text="&#8597;" textColor="80FFFFFF" textSize="24"/>
+      <control x="398" y="10" width="70" height="70" type="float" minValue="-24" maxValue="24" value="0" parameterName="Tune" mouseDragSensitivity="150" trackForegroundColor="E6fff476" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="crash" parameter="GROUP_TUNING"/>
+      </control>
+      <label x="398" y="80" width="70" height="70" text="&#8596;" textColor="80FFFFFF" textSize="24"/>
+      <control x="398" y="80" width="70" height="70" type="float" minValue="-100" maxValue="100" value="56.76562881469727" parameterName="Pan" mouseDragSensitivity="150" trackForegroundColor="E6fff476" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="crash" parameter="PAN"/>
+      </control>
+      <label x="398" y="312" width="70" height="30" text="CRASH" textColor="FF283237" textSize="20"/>
+      <control x="408" y="135" width="50" height="180" type="float" minValue="0" maxValue="1" value="0.2850060164928436" parameterName="Vol" mouseDragSensitivity="100" style="linear_vertical" trackForegroundColor="E6fff476" trackBackgroundColor="80FFFFFF">
+        <binding type="amp" level="group" tags="crash" parameter="AMP_VOLUME"/>
+      </control>
+      <menu x="399" y="344" parameterName="crash" width="70" height="30" requireSelection="true" placeholderText="Choose..." value="2">
+        <option name="Linn">
+          <binding type="general" level="group" tags="crash" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="linnCrash" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+        <option name="808">
+          <binding type="general" level="group" tags="crash" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="808Crash" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+      </menu>
+      <label x="478" y="10" width="70" height="70" text="&#8597;" textColor="80FFFFFF" textSize="24"/>
+      <control x="478" y="10" width="70" height="70" type="float" minValue="-24" maxValue="24" value="0" parameterName="Tune" mouseDragSensitivity="150" trackForegroundColor="E6fff476" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="tom1" parameter="GROUP_TUNING"/>
+      </control>
+      <label x="478" y="80" width="70" height="70" text="&#8596;" textColor="80FFFFFF" textSize="24"/>
+      <control x="478" y="80" width="70" height="70" type="float" minValue="-100" maxValue="100" value="-58.71353912353516" parameterName="Pan" mouseDragSensitivity="150" trackForegroundColor="E6fff476" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="tom1" parameter="PAN"/>
+      </control>
+      <label x="478" y="312" width="70" height="30" text="TOM 1" textColor="FF283237" textSize="20"/>
+      <control x="488" y="135" width="50" height="180" type="float" minValue="0" maxValue="1" value="0.5414413213729858" parameterName="Vol" mouseDragSensitivity="100" style="linear_vertical" trackForegroundColor="E6fff476" trackBackgroundColor="80FFFFFF">
+        <binding type="amp" level="group" tags="tom1" parameter="AMP_VOLUME"/>
+      </control>
+      <menu x="478" y="344" parameterName="tom1" width="70" height="30" requireSelection="true" placeholderText="Choose..." value="2">
+        <option name="Linn">
+          <binding type="general" level="group" tags="tom1" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="linnTom1" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+        <option name="808">
+          <binding type="general" level="group" tags="tom1" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="808Tom1" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+      </menu>
+      <label x="557" y="10" width="70" height="70" text="&#8597;" textColor="80FFFFFF" textSize="24"/>
+      <control x="557" y="10" width="70" height="70" type="float" minValue="-24" maxValue="24" value="0" parameterName="Tune" mouseDragSensitivity="150" trackForegroundColor="E6fff476" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="tom2" parameter="GROUP_TUNING"/>
+      </control>
+      <label x="557" y="80" width="70" height="70" text="&#8596;" textColor="80FFFFFF" textSize="24"/>
+      <control x="557" y="80" width="70" height="70" type="float" minValue="-100" maxValue="100" value="12.4687557220459" parameterName="Pan" mouseDragSensitivity="150" trackForegroundColor="E6fff476" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="tom2" parameter="PAN"/>
+      </control>
+      <label x="557" y="312" width="70" height="30" text="TOM 2" textColor="FF283237" textSize="20"/>
+      <control x="567" y="135" width="50" height="180" type="float" minValue="0" maxValue="1" value="0.5245893597602844" parameterName="Vol" mouseDragSensitivity="100" style="linear_vertical" trackForegroundColor="E6fff476" trackBackgroundColor="80FFFFFF">
+        <binding type="amp" level="group" tags="tom2" parameter="AMP_VOLUME"/>
+      </control>
+      <menu x="557" y="344" parameterName="tom2" width="70" height="30" requireSelection="true" placeholderText="Choose..." value="2">
+        <option name="Linn">
+          <binding type="general" level="group" tags="tom2" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="linnTom2" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+        <option name="808">
+          <binding type="general" level="group" tags="tom2" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="808Tom2" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+      </menu>
+      <label x="636" y="10" width="70" height="70" text="&#8597;" textColor="80FFFFFF" textSize="24"/>
+      <control x="636" y="10" width="70" height="70" type="float" minValue="-24" maxValue="24" value="1.182497978210449" parameterName="Tune" mouseDragSensitivity="150" trackForegroundColor="E6fff476" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="tom3" parameter="GROUP_TUNING"/>
+      </control>
+      <label x="636" y="80" width="70" height="70" text="&#8596;" textColor="80FFFFFF" textSize="24"/>
+      <control x="636" y="80" width="70" height="70" type="float" minValue="-100" maxValue="100" value="57.94269943237305" parameterName="Pan" mouseDragSensitivity="150" trackForegroundColor="E6fff476" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="tom3" parameter="PAN"/>
+      </control>
+      <label x="636" y="312" width="70" height="30" text="TOM 3" textColor="FF283237" textSize="20"/>
+      <control x="646" y="135" width="50" height="180" type="float" minValue="0" maxValue="1" value="0.5282952785491943" parameterName="Vol" mouseDragSensitivity="100" style="linear_vertical" trackForegroundColor="E6fff476" trackBackgroundColor="80FFFFFF">
+        <binding type="amp" level="group" tags="tom3" parameter="AMP_VOLUME"/>
+      </control>
+      <menu x="636" y="344" parameterName="tom3" width="70" height="30" requireSelection="true" placeholderText="Choose..." value="2">
+        <option name="Linn">
+          <binding type="general" level="group" tags="tom3" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="linnTom3" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+        <option name="808">
+          <binding type="general" level="group" tags="tom3" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="808Tom3" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+      </menu>
+      <label x="715" y="10" width="70" height="70" text="&#8597;" textColor="80FFFFFF" textSize="24"/>
+      <control x="715" y="10" width="70" height="70" type="float" minValue="-24" maxValue="24" value="-11.77000045776367" parameterName="Tune" mouseDragSensitivity="150" trackForegroundColor="E6e886d2" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="shaker" parameter="GROUP_TUNING"/>
+      </control>
+      <label x="715" y="80" width="70" height="70" text="&#8596;" textColor="80FFFFFF" textSize="24"/>
+      <control x="715" y="80" width="70" height="70" type="float" minValue="-100" maxValue="100" value="0" parameterName="Pan" mouseDragSensitivity="150" trackForegroundColor="E6e886d2" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="shaker" parameter="PAN"/>
+      </control>
+      <label x="715" y="312" width="70" height="30" text="SHAKE" textColor="FF283237" textSize="20"/>
+      <control x="725" y="135" width="50" height="180" type="float" minValue="0" maxValue="1" value="0.443534642457962" parameterName="Vol" mouseDragSensitivity="100" style="linear_vertical" trackForegroundColor="E6e886d2" trackBackgroundColor="80FFFFFF">
+        <binding type="amp" level="group" tags="shaker" parameter="AMP_VOLUME"/>
+      </control>
+      <menu x="715" y="344" parameterName="shaker" width="70" height="30" requireSelection="true" placeholderText="Choose..." value="1">
+        <option name="Linn">
+          <binding type="general" level="group" tags="shaker" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="linnShaker" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+        <option name="808">
+          <binding type="general" level="group" tags="shaker" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="808Shaker" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+      </menu>
+      <label x="794" y="10" width="70" height="70" text="&#8597;" textColor="80FFFFFF" textSize="24"/>
+      <control x="794" y="10" width="70" height="70" type="float" minValue="-24" maxValue="24" value="0" parameterName="Tune" mouseDragSensitivity="150" trackForegroundColor="E6e886d2" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="tambo" parameter="GROUP_TUNING"/>
+      </control>
+      <label x="794" y="80" width="70" height="70" text="&#8596;" textColor="80FFFFFF" textSize="24"/>
+      <control x="794" y="80" width="70" height="70" type="float" minValue="-100" maxValue="100" value="0" parameterName="Pan" mouseDragSensitivity="150" trackForegroundColor="E6e886d2" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="tambo" parameter="PAN"/>
+      </control>
+      <label x="794" y="312" width="70" height="30" text="TAMBO" textColor="FF283237" textSize="20"/>
+      <control x="804" y="135" width="50" height="180" type="float" minValue="0" maxValue="1" value="0.8" parameterName="Vol" mouseDragSensitivity="100" style="linear_vertical" trackForegroundColor="E6e886d2" trackBackgroundColor="80FFFFFF">
+        <binding type="amp" level="group" tags="tambo" parameter="AMP_VOLUME"/>
+      </control>
+      <menu x="794" y="344" parameterName="tambo" width="70" height="30" requireSelection="true" placeholderText="Choose..." value="2">
+        <option name="Linn">
+          <binding type="general" level="group" tags="tambo" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="linnTambo" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+        <option name="808">
+          <binding type="general" level="group" tags="tambo" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="808Tambo" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+      </menu>
+      <label x="874" y="10" width="70" height="70" text="&#8597;" textColor="80FFFFFF" textSize="24"/>
+      <control x="874" y="10" width="70" height="70" type="float" minValue="-24" maxValue="24" value="-21.12625" parameterName="Tune" mouseDragSensitivity="150" trackForegroundColor="E6e886d2" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="cowbell" parameter="GROUP_TUNING"/>
+      </control>
+      <label x="874" y="80" width="70" height="70" text="&#8596;" textColor="80FFFFFF" textSize="24"/>
+      <control x="874" y="80" width="70" height="70" type="float" minValue="-100" maxValue="100" value="0" parameterName="Pan" mouseDragSensitivity="150" trackForegroundColor="E6e886d2" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="cowbell" parameter="PAN"/>
+      </control>
+      <label x="874" y="312" width="70" height="30" text="C.BELL" textColor="FF283237" textSize="20"/>
+      <control x="884" y="135" width="50" height="180" type="float" minValue="0" maxValue="1" value="0.2794220753205128" parameterName="Vol" mouseDragSensitivity="100" style="linear_vertical" trackForegroundColor="E6e886d2" trackBackgroundColor="80FFFFFF">
+        <binding type="amp" level="group" tags="cowbell" parameter="AMP_VOLUME"/>
+      </control>
+      <menu x="874" y="344" parameterName="cowbell" width="70" height="30" requireSelection="true" placeholderText="Choose..." value="2">
+        <option name="Linn">
+          <binding type="general" level="group" tags="cowbell" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="linnCowbell" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+        <option name="808">
+          <binding type="general" level="group" tags="cowbell" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="808Cowbell" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+      </menu>
+      <label x="952" y="10" width="70" height="70" text="&#8597;" textColor="80FFFFFF" textSize="24"/>
+      <control x="952" y="10" width="70" height="70" type="float" minValue="-24" maxValue="24" value="-24.0" parameterName="Tune" mouseDragSensitivity="150" trackForegroundColor="E6e886d2" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="clap" parameter="GROUP_TUNING"/>
+      </control>
+      <label x="952" y="80" width="70" height="70" text="&#8596;" textColor="80FFFFFF" textSize="24"/>
+      <control x="952" y="80" width="70" height="70" type="float" minValue="-100" maxValue="100" value="0" parameterName="Pan" mouseDragSensitivity="150" trackForegroundColor="E6e886d2" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="clap" parameter="PAN"/>
+      </control>
+      <label x="952" y="312" width="70" height="30" text="CLAP" textColor="FF283237" textSize="20"/>
+      <control x="962" y="135" width="50" height="180" type="float" minValue="0" maxValue="1" value="0.5431690705128205" parameterName="Vol" mouseDragSensitivity="100" style="linear_vertical" trackForegroundColor="E6e886d2" trackBackgroundColor="80FFFFFF">
+        <binding type="amp" level="group" tags="clap" parameter="AMP_VOLUME"/>
+      </control>
+      <menu x="952" y="344" parameterName="clap" width="70" height="30" requireSelection="true" placeholderText="Choose..." value="1">
+        <option name="Linn">
+          <binding type="general" level="group" tags="clap" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="linnClap" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+        <option name="808">
+          <binding type="general" level="group" tags="clap" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="808Clap" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+      </menu>
+      <label x="1032" y="10" width="70" height="70" text="&#8597;" textColor="80FFFFFF" textSize="24"/>
+      <control x="1032" y="10" width="70" height="70" type="float" minValue="-24" maxValue="24" value="0" parameterName="Tune" mouseDragSensitivity="150" trackForegroundColor="E6f19d53" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="aux1" parameter="GROUP_TUNING"/>
+      </control>
+      <label x="1032" y="80" width="70" height="70" text="&#8596;" textColor="80FFFFFF" textSize="24"/>
+      <control x="1032" y="80" width="70" height="70" type="float" minValue="-100" maxValue="100" value="0" parameterName="Pan" mouseDragSensitivity="150" trackForegroundColor="E6f19d53" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="aux1" parameter="PAN"/>
+      </control>
+      <label x="1032" y="312" width="70" height="30" text="AUX 1" textColor="FF283237" textSize="20"/>
+      <control x="1042" y="135" width="50" height="180" type="float" minValue="0" maxValue="1" value="0.8" parameterName="Vol" mouseDragSensitivity="100" style="linear_vertical" trackForegroundColor="E6f19d53" trackBackgroundColor="80FFFFFF">
+        <binding type="amp" level="group" tags="aux1" parameter="AMP_VOLUME"/>
+      </control>
+      <menu x="1031" y="344" parameterName="aux1" width="70" height="30" requireSelection="true" placeholderText="Choose..." value="1">
+        <option name="Linn">
+          <binding type="general" level="group" tags="aux1" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="linnAux1" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+        <option name="808">
+          <binding type="general" level="group" tags="aux1" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="808Aux1" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+      </menu>
+      <label x="1110" y="10" width="70" height="70" text="&#8597;" textColor="80FFFFFF" textSize="24"/>
+      <control x="1110" y="10" width="70" height="70" type="float" minValue="-24" maxValue="24" value="0" parameterName="Tune" mouseDragSensitivity="150" trackForegroundColor="E6f19d53" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="aux2" parameter="GROUP_TUNING"/>
+      </control>
+      <label x="1110" y="80" width="70" height="70" text="&#8596;" textColor="80FFFFFF" textSize="24"/>
+      <control x="1110" y="80" width="70" height="70" type="float" minValue="-100" maxValue="100" value="0" parameterName="Pan" mouseDragSensitivity="150" trackForegroundColor="E6f19d53" trackBackgroundColor="FF283237">
+        <binding type="amp" level="group" tags="aux2" parameter="PAN"/>
+      </control>
+      <label x="1110" y="312" width="70" height="30" text="AUX 2" textColor="FF283237" textSize="20"/>
+      <control x="1120" y="135" width="50" height="180" type="float" minValue="0" maxValue="1" value="0.8" parameterName="Vol" mouseDragSensitivity="100" style="linear_vertical" trackForegroundColor="E6f19d53" trackBackgroundColor="80FFFFFF">
+        <binding type="amp" level="group" tags="aux2" parameter="AMP_VOLUME"/>
+      </control>
+      <menu x="1110" y="344" parameterName="aux2" width="70" height="30" requireSelection="true" placeholderText="Choose..." value="1">
+        <option name="Linn">
+          <binding type="general" level="group" tags="aux2" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="linnAux2" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+        <option name="808">
+          <binding type="general" level="group" tags="aux2" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" tags="808Aux2" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </option>
+      </menu>
+      <label x="1189" y="149" width="96" height="30" text="LOW PASS" hAlign="left" textColor="E6FFFFFF" textSize="16"/>
+      <control x="1194" y="173" width="96" height="10" label="" type="float" style="linear_bar" minValue="0" maxValue="1" value="0.4576130319148936" parameterName="LPF" mouseDragSensitivity="100" trackForegroundColor="E6ffffff" trackBackgroundColor="80FFFFFF">
+        <binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationReversed="true" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000"/>
+      </control>
+      <label x="1189" y="185" width="96" height="30" text="HIGH PASS" hAlign="left" textColor="E6FFFFFF" textSize="16"/>
+      <control x="1194" y="209" width="96" height="10" label="" type="float" style="linear_bar" minValue="0" maxValue="1" value="0" parameterName="HPF" mouseDragSensitivity="100" trackForegroundColor="E6ffffff" trackBackgroundColor="80FFFFFF">
+        <binding type="effect" level="instrument" position="1" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,0;0.1,20;0.2,80;0.3,180;0.4,320;0.5,500;0.6,720;0.7,1280;0.9,1620;1.,2000"/>
+      </control>
+      <label x="1189" y="221" width="96" height="30" text="DRIVE" hAlign="left" textColor="E6FFFFFF" textSize="16"/>
+      <control x="1194" y="245" width="96" height="10" label="" type="float" style="linear_bar" minValue="0" maxValue="1" value="0.6656416223404256" parameterName="Drive" mouseDragSensitivity="100" trackForegroundColor="E6ffffff" trackBackgroundColor="80FFFFFF">
+        <binding type="effect" level="instrument" position="2" parameter="FX_DRIVE" translation="table" translationTable="0,1;0.1,1;0.2,1.3;0.3,3.4;0.4,11.2;0.5,32.2;0.6,78.7;0.7,328.4;0.9,590.9;1.,1000"/>
+        <binding type="effect" level="instrument" position="2" parameter="FX_OUTPUT_LEVEL" translation="table" translationReversed="true" translationTable="0,0.04;0.1,0.04;0.4,0.04;0.4,0.04;0.4,0.04;0.5,0.05;0.6,0.1;0.7,0.3;0.9,0.6;1.,1"/>
+      </control>
+      <label x="1189" y="257" width="96" height="30" text="REVERB" hAlign="left" textColor="E6FFFFFF" textSize="16"/>
+      <control x="1194" y="281" width="96" height="10" label="" type="float" style="linear_bar" minValue="0" maxValue="1" value="0.3545129654255319" parameterName="Reverb" mouseDragSensitivity="100" trackForegroundColor="E6ffffff" trackBackgroundColor="80FFFFFF">
+        <binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" translation="linear"/>
+        <binding type="effect" level="instrument" position="3" parameter="FX_REVERB_ROOM_SIZE" translation="table" translationTable="0,0;0.1,0;0.2,0;0.3,0.01;0.4,0.03;0.5,0.06;0.6,0.13;0.7,0.41;0.9,0.66;1.,1"/>
+        <binding type="effect" level="instrument" position="3" parameter="FX_REVERB_DAMPING" translation="linear" translationTable="0,0.5;0.1,0.51;0.2,0.52;0.3,0.55;0.4,0.58;0.5,0.63;0.6,0.68;0.7,0.82;0.9,0.91;1.,1"/>
+      </control>
+      <label x="1189" y="321" width="96" height="30" text="OUTPUT" hAlign="left" textColor="E6FFFFFF" textSize="16"/>
+      <control x="1194" y="345" width="96" height="10" label="" type="float" style="linear_bar" minValue="0" maxValue="1" value="0.5" parameterName="Output" mouseDragSensitivity="100" trackForegroundColor="E6ffffff" trackBackgroundColor="80FFFFFF">
+        <binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="table" translationTable="0,0;0.1,0.1;0.2,0.25;0.3,0.5;0.4,0.75;0.5,1;0.6,2;0.7,4;0.9,6;1,8"/>
+      </control>
+    </tab>
+    <keyboard>
+      <color loNote="48" hiNote="48" color="FF29bcd6"/>
+      <color loNote="50" hiNote="52" color="FF2edab8"/>
+      <color loNote="53" hiNote="59" color="FFfff476"/>
+      <color loNote="60" hiNote="64" color="FFff7e6b"/>
+      <color loNote="65" hiNote="71" color="FFe886d2"/>
+      <color loNote="72" hiNote="74" color="FFf19d53"/>
+    </keyboard>
+  </ui>
+  <effects>
+    <effect type="lowpass" frequency="1735.8045591735"/>
+    <effect type="highpass" frequency="0.0"/>
+    <effect type="wave_shaper" drive="242.6071250136999" outputLevel="0.03999999910593033"/>
+    <effect type="reverb" wetLevel="0.3545129654255319" roomSize="0.02090259088355635" damping="0.3545129654255319"/>
+  </effects>
+  <tags>
+    <tag name="kick" volume="1" pan="0"/>
+    <tag name="linnKick" volume="1" pan="0"/>
+    <tag name="808Kick" volume="1" pan="0"/>
+    <tag name="snare" volume="1" pan="0"/>
+    <tag name="linnSnare" volume="1" pan="0"/>
+    <tag name="808Snare" volume="1" pan="0"/>
+    <tag name="stick" volume="1" pan="0"/>
+    <tag name="linnStick" volume="1" pan="0"/>
+    <tag name="808Stick" volume="1" pan="0"/>
+    <tag name="hh" volume="1" pan="0"/>
+    <tag name="linnHH" volume="1" pan="0"/>
+    <tag name="808HH" volume="1" pan="0"/>
+    <tag name="ride" volume="1" pan="0"/>
+    <tag name="linnRide" volume="1" pan="0"/>
+    <tag name="crash" volume="1" pan="0"/>
+    <tag name="linnCrash" volume="1" pan="0"/>
+    <tag name="808Crash" volume="1" pan="0"/>
+    <tag name="tom1" volume="1" pan="0"/>
+    <tag name="linnTom1" volume="1" pan="0"/>
+    <tag name="808Tom1" volume="1" pan="0"/>
+    <tag name="tom2" volume="1" pan="0"/>
+    <tag name="linnTom2" volume="1" pan="0"/>
+    <tag name="808Tom2" volume="1" pan="0"/>
+    <tag name="tom3" volume="1" pan="0"/>
+    <tag name="linnTom3" volume="1" pan="0"/>
+    <tag name="808Tom3" volume="1" pan="0"/>
+    <tag name="shaker" volume="1" pan="0"/>
+    <tag name="linnShaker" volume="1" pan="0"/>
+    <tag name="808Shaker" volume="1" pan="0"/>
+    <tag name="tambo" volume="1" pan="0"/>
+    <tag name="linnTambo" volume="1" pan="0"/>
+    <tag name="808Tambo" volume="1" pan="0"/>
+    <tag name="cowbell" volume="1" pan="0"/>
+    <tag name="linnCowbell" volume="1" pan="0"/>
+    <tag name="808Cowbell" volume="1" pan="0"/>
+    <tag name="clap" volume="1" pan="0"/>
+    <tag name="linnClap" volume="1" pan="0"/>
+    <tag name="808Clap" volume="1" pan="0"/>
+    <tag name="aux1" volume="1" pan="0"/>
+    <tag name="linnAux1" volume="1" pan="0"/>
+    <tag name="808Aux1" volume="1" pan="0"/>
+    <tag name="aux2" volume="1" pan="0"/>
+    <tag name="linnAux2" volume="1" pan="0"/>
+    <tag name="808Aux2" volume="1" pan="0"/>
+  </tags>
+  <midi/>
+  <modulators/>
+</DecentSampler>
